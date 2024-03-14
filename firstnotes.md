@@ -7,7 +7,7 @@
   - `sudo openvpn ~/Downloads/specmenu0.opvn`
 - Create new tab in Terminal `ctrl-shift-T` so we don't stop the VPN.
 - Check connection (tun0) and get my IP
-  - `ifconfig`
+  - `$ ifconfig`
     - Alternate to get my IP
       - `ip addr`
 - Get target VM IP, credentials
