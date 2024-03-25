@@ -23,7 +23,9 @@
 
 ## Enumeration
 
-- Scan ports
+List of basic steps used in enumeration. Use own judgment. Be flexable.
+
+### Step 1. Scan Ports
   - `nmap -sS -A -T4 -p- <target IP> -oN <outputfilename.txt>`
     - `-sS` Can be omitted. Default behavior: Scan Technique `-sS` TCP SYN scan [Man page](https://nmap.org/book/synscan.html)
     - Misc `-A` Detect OS and Versions
