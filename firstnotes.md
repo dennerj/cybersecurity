@@ -5,6 +5,8 @@
 - Start the VM to be attacked from Task Section (green button).
 - While the target VM instantiates start OpenVPN on host machine.
   - `sudo openvpn ~/Downloads/specmenu0.opvn`
+  - *Personal NOTE:* Had an issue with launchinfg the VPN on my local Kali VM. It said "Options error: In [CMD-LINE]:1: Error opening configuration file... blah blah filename.ovpn" I updated and upgraded and it seemed to fix the problem.
+
 - Create new tab in Terminal `ctrl-shift-T` so we don't stop the VPN.
 - Check connection (tun0) and get my IP
   - `$ ifconfig`
